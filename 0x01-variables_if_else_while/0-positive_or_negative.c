@@ -4,8 +4,6 @@
 
 #include <stdio.h>
 
-
-
 /**
  * main - Determines if a number is positive, Negative or Zero.
  *
@@ -28,7 +26,7 @@ int main(void)
 	{
 	printf("%d is zero\n",n);
 	}
-	else
+	else if (n<0)
 	{
 	printf("%d is negative\n",n);
 	}
